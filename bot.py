@@ -1,5 +1,5 @@
 import never_sleep
-never_sleep.awake('https://Discord-Tutoring-Bot.hknatucla.repl.co', False)
+never_sleep.awake('', False) # add the URL of your server here
 import discord
 from discord.ext.commands import Bot
 import os
@@ -84,7 +84,7 @@ async def hello(ctx):
 async def help(ctx):
   msg = "Hello! I\'m **Tutoring Logger**, HKN\'s new Discord Bot! \n Check out the Tutoring Schedule here:"
 
-  tutoring_schedule = discord.Embed(title="HKN Tutoring Schedule", url = "https://docs.google.com/spreadsheets/d/1boLY5YeM630_9v_-72Nf6QcSYytRfF7tBTr_P62NX50/edit?usp=sharing")
+  tutoring_schedule = discord.Embed(title="HKN Tutoring Schedule", url = os.getenv('SCHEDULE_SPREADSHEET'))
 
   await ctx.send(msg)
   await ctx.send(embed = tutoring_schedule)
