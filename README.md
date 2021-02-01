@@ -16,7 +16,7 @@ To check if the bot is responding, you can use the $hello command. If the bot is
 `Hello!`
 
 ## Spreadsheet Setup
-The first row is assume to have column names as shown below:
+The first row is assumed to have column names as shown below:
 
 | Name | Discord Username | VC Start | VC End | Weekly Elapsed Time | Running Total |
 | ---- | ---------------- | -------- | ------ | ------------------- | ------------- |
