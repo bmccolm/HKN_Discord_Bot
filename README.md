@@ -15,3 +15,4 @@ To test the bot, connect it with a Discord server. When you run the code in Repl
 The first row is assume to have column names as shown below:
 
 | Name | Discord Username | VC Start | VC End | Weekly Elapsed Time | Running Total |
+| ---- | ---------------- | -------- | ------ | ------------------- | ------------- |
