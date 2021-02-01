@@ -7,7 +7,7 @@ Since this bot interfaces with a spreadsheet, you will need to set up an interfa
 
 ## Testing
 To test the bot, connect it with a Discord server. When you run the code in Replit, you will see the following message printed in the terminal:
-'We've logged in as [Bot Name]'
+`We've logged in as [Bot Name]`
 
 ## Spreadsheet Setup
 The first row is assume to have column names as shown below:
