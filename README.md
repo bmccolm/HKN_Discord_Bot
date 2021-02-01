@@ -11,6 +11,10 @@ To test the bot, connect it with a Discord server. When you run the code in Repl
 
 `We've logged in as [Bot Name]`
 
+To check if the bot is responding, you can use the $hello command. If the bot is setup correctly, it should respond with:
+
+`Hello!`
+
 ## Spreadsheet Setup
 The first row is assume to have column names as shown below:
 
