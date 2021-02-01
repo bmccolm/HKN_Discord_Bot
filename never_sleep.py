@@ -1,3 +1,4 @@
+# see this Replit forum for details: https://repl.it/talk/ask/Uptime-Robot-not-working-with-Discord-Cloudflare/49491
 from flask import Flask
 from threading import Thread
 import random
